@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Motivation
+
+The purpose of the app is to track refounds of purchases. It can be useful when you buy and return a lot of closes in internet.
+So it could be tricky to track whether all retunds landed back to your bank account. 
+
+Demo: https://shop-returns.herokuapp.com/ (in development)
+
+
+# Technologies used
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `yarn start`
 

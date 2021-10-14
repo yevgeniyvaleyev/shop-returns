@@ -1,7 +1,7 @@
 # Motivation
 
 The purpose of the app is to track refounds of purchases. It can be useful when you buy and return a lot of closes in internet.
-So it could be tricky to track whether all retunds landed back to your bank account. 
+So it could be tricky to track whether all refunds landed back to your bank account. 
 
 Demo: https://shop-returns.herokuapp.com/ (in development)
 

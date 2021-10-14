@@ -20,14 +20,15 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: install and build
+      - name: install
         uses: borales/actions-yarn@v2.3.0
-        run: |
-          yarn install
-          yarn build
+        cmd: install
+      - name: build
+        uses: borales/actions-yarn@v2.3.0
+        cmd: build
       - name: tests
         uses: borales/actions-yarn@v2.3.0
-        run: yarn test
+        cmd: test
 
   deploy:
     runs-on: ubuntu-latest
